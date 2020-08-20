@@ -7,7 +7,7 @@ A module to access https://pokeapi.co from deno!
 ## Usage
 
 ```ts
-import { pokemon } from "https://nest.land/package/pokedeno/mod.ts";
+import { pokemon } from "https://x.nest.land/pokedeno@0.0.1/mod.ts";
 
 console.log(await pokemon.get("rotom"));
 ```
