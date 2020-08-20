@@ -1,7 +1,7 @@
 {
   "name": "pokedeno",
   "description": "A module to access https://pokeapi.co from deno!",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "stable": true,
   "fmt": true,
   "repository": "https://github.com/SquarePear/pokedeno",

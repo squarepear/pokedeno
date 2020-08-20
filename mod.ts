@@ -1,1 +1,1 @@
-export * as pokemon from "./src/pokemon.ts";
+export * from "./src/library.ts";
