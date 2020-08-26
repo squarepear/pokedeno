@@ -45,7 +45,7 @@ export interface Pokemon {
   weight: number;
 }
 
-export interface PokemonType {
+export interface Type {
   damage_relations: {
     double_damage_from: NamedResource[];
     double_damage_to: NamedResource[];
@@ -73,7 +73,7 @@ export interface PokemonType {
   }[];
 }
 
-export interface PokemonAbility {
+export interface Ability {
   effect_changes: {
     effect_entries: {
       effect: string;
@@ -106,7 +106,7 @@ export interface PokemonAbility {
   }[];
 }
 
-interface Sprites {
+export interface Sprites {
   back_default?: string;
   back_female?: string;
   back_shiny?: string;
@@ -126,7 +126,7 @@ interface Sprites {
   animated?: Sprites;
 }
 
-interface NamedResource {
+export interface NamedResource {
   name: string;
   url: string;
 }
