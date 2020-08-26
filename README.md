@@ -7,7 +7,7 @@ A module to access https://pokeapi.co/ and http://pokemontcg.io/ from deno!
 ## Usage
 
 ```ts
-import { getAbility, getCard, getCards, getPokemon, getType } from "https://x.nest.land/pokedeno@0.1.0/mod.ts";
+import { getAbility, getCard, getCards, getPokemon, getType } from "https://x.nest.land/pokedeno@0.2.0/mod.ts";
 
 console.log(await getPokemon("rotom"));
 console.log(await getAbility("soundproof"));
