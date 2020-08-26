@@ -1,7 +1,7 @@
 {
   "name": "pokedeno",
-  "description": "A module to access https://pokeapi.co from deno!",
-  "version": "0.1.0",
+  "description": "A module to access https://pokeapi.co/ and http://pokemontcg.io/ from deno!",
+  "version": "0.2.0",
   "stable": true,
   "fmt": true,
   "repository": "https://github.com/SquarePear/pokedeno",
