@@ -1,7 +1,7 @@
 import {
   assertEquals,
   assertStringContains,
-} from "https://x.nest.land/std@0.66.0/testing/asserts.ts";
+} from "https://x.nest.land/std@0.70.0/testing/asserts.ts";
 import { getAbility, getCard, getCards, getPokemon, getType } from "./mod.ts";
 
 Deno.test("getting pokemon info", async () => {
