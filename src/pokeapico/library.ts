@@ -1,4 +1,4 @@
-import { Ability, Pokemon, Type } from "./typings.ts";
+import type { Ability, Pokemon, Type } from "./typings.ts";
 
 export async function getPokemon(nameOrID: string | number): Promise<Pokemon> {
   const response = await fetch(

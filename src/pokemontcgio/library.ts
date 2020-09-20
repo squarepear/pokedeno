@@ -1,4 +1,4 @@
-import { Card } from "./typings.ts";
+import type { Card } from "./typings.ts";
 
 export async function getCard(id: string): Promise<Card> {
   const response = await fetch(
